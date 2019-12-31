@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2019-12-30 16:42:10
- * @LastEditTime : 2019-12-31 16:50:43
+ * @LastEditTime : 2019-12-31 17:25:22
  * @LastEditors  : Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myprojects\src\app.vue
@@ -11,6 +11,9 @@
         <!-- 头部 -->
         <mt-header fixed title="fixed top"></mt-header>
         <!-- 中间 -->
+        <transition>
+            <router-view></router-view>
+        </transition>
         <!-- 底部 -->
         <nav class="mui-bar mui-bar-tab">
 			<a class="mui-tab-item mui-active" href="#tabbar">
