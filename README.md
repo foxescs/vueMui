@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2019-12-31 16:19:19
- * @LastEditTime : 2019-12-31 16:47:22
+ * @LastEditTime : 2020-01-02 10:53:14
  * @LastEditors  : Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myprojects\README.md
@@ -79,3 +79,8 @@ module.exports={
         }),
     ],
 }
+
+##项目布局结构
+1.header 部分用的是mint-ui
+2.footer 部分用的是mui
+3.中间部分用的是路由

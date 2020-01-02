@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2019-12-30 16:40:18
- * @LastEditTime : 2019-12-31 17:24:34
+ * @LastEditTime : 2020-01-02 10:48:42
  * @LastEditors  : Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myprojects\src\main.js
@@ -10,6 +10,7 @@ import Vue from 'vue'
 import app from './app.vue'
 import router from './router.js'
 import '../lib/mui/css/mui.min.css'
+import '../lib/mui/css/icons-extra.css'
 import {Header} from 'mint-ui';
 
 Vue.component(Header.name, Header);
