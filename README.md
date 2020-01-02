@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2019-12-31 16:19:19
- * @LastEditTime : 2020-01-02 11:32:42
+ * @LastEditTime : 2020-01-02 11:49:19
  * @LastEditors  : Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myprojects\README.md
@@ -86,3 +86,4 @@ module.exports={
 3.中间部分用的是路由
 footer路由链接改造和路由高亮显示用到知识点vue-router vue.use(VueRouter) router-link to linkActiveClass
 路由组件的切换涉及的知识点 component.vue {path:'',componnet:''} <router-view></router-view>
+swipe轮播图用的是mint-ui
