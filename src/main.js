@@ -1,13 +1,16 @@
 /*
  * @Author: your name
  * @Date: 2019-12-30 16:40:18
- * @LastEditTime : 2020-01-02 11:45:08
+ * @LastEditTime : 2020-01-02 15:23:29
  * @LastEditors  : Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myprojects\src\main.js
  */
 import Vue from 'vue'
 import app from './app.vue'
+
+import VueResource from 'vue-resource'
+Vue.use(VueResource)
 
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)

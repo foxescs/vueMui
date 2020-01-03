@@ -39,6 +39,7 @@
     "@babel/preset-env": "^7.7.7",
     "@babel/runtime": "^7.7.7",
     "babel-loader": "^8.0.6",
-    "babel-plugin-component": "^1.1.1"
+    "babel-plugin-component": "^1.1.1",
+    "vue-resource": "^1.5.1"
   }
 }
