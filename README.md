@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2019-12-31 16:19:19
- * @LastEditTime : 2020-01-02 11:49:19
+ * @LastEditTime : 2020-01-06 17:47:22
  * @LastEditors  : Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myprojects\README.md
@@ -87,3 +87,4 @@ module.exports={
 footer路由链接改造和路由高亮显示用到知识点vue-router vue.use(VueRouter) router-link to linkActiveClass
 路由组件的切换涉及的知识点 component.vue {path:'',componnet:''} <router-view></router-view>
 swipe轮播图用的是mint-ui
+动画添加：当底部切换时，动画切换会有横向滚动条，overflow-x:hidden

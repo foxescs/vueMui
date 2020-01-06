@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2019-12-30 16:42:10
- * @LastEditTime : 2020-01-02 11:30:43
+ * @LastEditTime : 2020-01-06 17:45:14
  * @LastEditors  : Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myprojects\src\app.vue
@@ -11,7 +11,9 @@
         <!-- 头部 -->
         <mt-header fixed title="fixed top"></mt-header>
         <!-- 中间 -->
-            <router-view></router-view>
+            <transition>
+				<router-view></router-view>
+			</transition>
         <!-- 底部 -->
         <nav class="mui-bar mui-bar-tab">
 			<router-link class="mui-tab-item " to="/home">
@@ -41,7 +43,19 @@ export default {
 </script>
 
 <style lang="scss">
+	.v-enter{
+		opacity: 0;
+		transform:translateX(100%)
+	}
+	.v-leave-to{
+		opacity: 0;
+		transform:translateX(-100%)
+	}
+	.v-enter-active,v-leave-active{
+		transition:all 0.5s ease;
+	}
     .app_container{
 		padding-top:40px;
+		overflow-x: hidden;
 	}
 </style>
