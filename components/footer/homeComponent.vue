@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-01-02 11:17:35
- * @LastEditTime : 2020-01-06 09:51:11
+ * @LastEditTime : 2020-01-07 11:19:50
  * @LastEditors  : Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myprojects\components\footer\homeComponent.vue
@@ -16,9 +16,9 @@
         </mt-swipe>
         <!-- 六宫格区域 -->
         <ul class="mui-table-view mui-grid-view mui-grid-9 grid-style">
-		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/home/newsList">
 		                    <img :src='menu1' alt="">
-		                    <div class="mui-media-body">新闻资讯</div></a></li>
+		                    <div class="mui-media-body">新闻资讯</div></router-link></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
 		                   <img :src='menu2' alt="">
 		                    <div class="mui-media-body">图片分享</div></a></li>

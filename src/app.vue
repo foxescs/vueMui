@@ -56,6 +56,7 @@ export default {
 	}
     .app_container{
 		padding-top:40px;
+		padding-bottom:50px;
 		overflow-x: hidden;
 	}
 </style>

@@ -1,13 +1,18 @@
 /*
  * @Author: your name
  * @Date: 2019-12-30 16:40:18
- * @LastEditTime : 2020-01-02 15:23:29
+ * @LastEditTime : 2020-01-07 16:26:33
  * @LastEditors  : Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \myprojects\src\main.js
  */
 import Vue from 'vue'
 import app from './app.vue'
+
+import moment from 'moment'
+Vue.filter('dataFormate', function (str, parttern = 'YYYY-MM-DD') {
+    return moment(str).format(parttern)
+})
 
 import VueResource from 'vue-resource'
 Vue.use(VueResource)
